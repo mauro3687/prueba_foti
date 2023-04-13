@@ -1,0 +1,126 @@
+*{
+   
+   
+}
+
+:root{
+    --color-1:#f4bfbf;
+    --color-1-2:#f4bfbfa0;
+    --color-2:#dc8282;
+    --color-3:#cd6e6ec0;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #E5E5E5
+}
+.contenedor{
+    display: flex;
+    width: 100%;
+    height: 100px;
+
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 2px var(--color-borde);
+    background: var(--color-1);
+    border-radius: 50px;
+    clip-path: circle(42%);
+    transition-property: clip-path;
+    transition-duration: 2s;
+    border-bottom: 5px solid var(--color-1-2);
+}
+.header:hover{
+    clip-path: circle(100%);
+    background: blueviolet;
+
+}
+.link-2{
+    display: flex;
+    justify-content:flex-start;
+    font-size: 50px;
+    text-decoration: none;
+    color: yellow;
+    
+
+}
+.link-2:hover{
+
+    color: #ffffff;
+}
+.nav{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    font-size: 50px;
+    align-items: center;
+    margin: 30px;
+    background: red;
+    
+}
+.link{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.link:hover{
+    color: yellow;
+
+}
+.nave{
+    display: flex;
+    justify-content: flex-start;
+}
+.navv{
+    margin: 1%;
+    width: 20%;
+    background: var(--color-2 );
+    overflow: scroll;
+    height: 800px;
+
+}
+.article{
+    width: 58%;
+    background: var(--color-3);
+    margin: 1%;
+    height:800px ;
+    
+}
+.img{
+    width: 20%;
+    margin: 1%;
+}
+
+
+.ul{
+    font-size: 25px;
+    list-style: none;
+
+}
+ul>li a{
+    text-decoration: none;
+}
+    
+.img-posi{
+    width: 90%;
+    padding-bottom: 160px;
+}
+.clearfix{
+    clear: both;
+}
+/* parte de contactos  */
+.body{
+    background: var(--color-1);
+}
+.img-parte{
+    margin: 1%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding-bottom: 40px;
+}
